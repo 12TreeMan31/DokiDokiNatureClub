@@ -6,7 +6,7 @@ font = pygame.font.SysFont("georgia", 50)
 
 # create game window 
 
-fps= 60
+fps= 15
 fpsClock = pygame.time.Clock()
 
 SCREEN_WIDTH = 1280
@@ -73,8 +73,14 @@ class Button():
 
 def buttonPressed():
     print('Start Pressed')
-
+    screen.fill((255, 209, 220))
     objects.clear()
+    print(objects)
+    screen.fill((255, 209, 220))
+
+
+    
+
 
 
 
@@ -93,15 +99,31 @@ Button(30, 200, 400, 100, 'start', buttonPressed)
 Button(30, 400, 400, 100, 'quit', quitPressed)
 
 
-run = True 
-while run:
+
+screen.fill((255, 209, 220))
+title= "Doki Doki Nature Club"
+menutrue= True
+
+runmenu = True 
+
+
+
     
+
+
+
+
+
+
+
+
+
+
+
+
+while runmenu:
     screen.fill((255, 209, 220))
-    
-
-    drawText("Doki Doki Nature Club!!", pygame.font.SysFont("georgia", 70), TEXT_COL, 20 , 60)
-
-
+    drawText(title, pygame.font.SysFont("georgia", 70), TEXT_COL, 20 , 60)
     for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
             print("hahaha")
@@ -119,4 +141,31 @@ while run:
 
     fpsClock.tick(fps)
 
+
+game1= True
+while game1:
+    screen.fill((255, 209, 220))
+    drawText(title, pygame.font.SysFont("georgia", 70), TEXT_COL, 20 , 60)
+    for event in pygame.event.get():
+        if event.type == pygame.KEYDOWN:
+            print("hahaha")
+        
+        if event.type == pygame.QUIT:
+            run = False
+            pygame.display.update()
+
+    for object in objects:
+        object.process()
+
+    pygame.display.flip()
+
+        
+
+    fpsClock.tick(fps)
+
+
+
+
 pygame.quit()
+
+
