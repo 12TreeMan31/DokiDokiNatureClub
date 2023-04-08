@@ -1,0 +1,20 @@
+ME: 
+(It’s my second week at Amazon academy.)
+(My teachers have been telling me to join a club, but I'm not really interested in anything...)
+(...huh, what’s this?)
+(The nature club?)
+“This is the Nature club, come save the planet with us!!!!”
+
+
+Prompt: Will you join the nature club?
+(Yes)  (No)
+
+Yes -> Continues the game
+No ->    New text:  Well, I have to join some kind of club. So I'll just join this one.  (game continues)
+
+
+[fade to black]
+[fade to classroom]
+1,2,3 are present,  class background
+
+2: Welcome to the nature club!!! We’re so happy you are here!!!
