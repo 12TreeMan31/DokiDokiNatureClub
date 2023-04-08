@@ -26,23 +26,16 @@ nature= pygame.image.load("/home/anna/0_Code/assets/bg_natureclub.png")
 dance = pygame.image.load("/home/anna/0_Code/assets/bg_dance.png")
 joinclub = pygame.image.load("/home/anna/0_Code/assets/bg_joinclub.png")
 taiko= pygame.image.load("/home/anna/0_Code/assets/bg_taiko.png")
-textbox = pygame.image.load("/home/anna/0_Code/assets/textbox.png")
 
 
 
 happyotter= pygame.image.load("/home/anna/0_Code/assets/otter_happy.png")
-sadotter= pygame.image.load("/home/anna/0_Code/assets/otter_sad.png")
 happymorb= pygame.image.load("/home/anna/0_Code/assets/morpho_happy.png")
-sadmorb= pygame.image.load("/home/anna/0_Code/assets/morpho_sad.png")
 happyjag= pygame.image.load("/home/anna/0_Code/assets/jaguar_happy.png")
-sadjag= pygame.image.load("/home/anna/0_Code/assets/jaguar_sad.png")
 
 happyotter = pygame.transform.scale(happyotter, (imagesize))
-sadotter = pygame.transform.scale(sadotter, (imagesize))
 happymorb= pygame.transform.scale(happymorb, (imagesize))
-sadmorb= pygame.transform.scale(sadmorb, (imagesize))
 happyjag= pygame.transform.scale(happyjag, (imagesize))
-sadjag= pygame.transform.scale(sadjag, (imagesize))
 
 #
 
@@ -68,6 +61,15 @@ scene=[["Me", clubfair, none,none,none,"(It's my third week at the Amazon Academ
         ["Olivia", taiko, mid, none, none, "To plant trees, click F or J when the tree aligns with the yellow circle!", "Easy enough right?", "Ready? Begin!"],
         ##cue taiko
         
+        #after taiko
+        ["Olivia", nature, mid, left, right, "Great job!!!", "Thanks for helping me out!", "Because of you, the world is a better place!"],
+        ["Janice", nature, mid, left, right, "Hey! How about we make a school dance to fundraise for...","...hmm..."],
+        ["Maddie", nature, mid, left, right, "Oh I know!", "The Word WildLife Fund!"],
+        ["Janice", nature, mid, left, right, "That sounds great!!", "Let's Dance!", "I'll get the preparations ready!"],
+        ["Me", nature, mid, left, right, "Let's rock!"],
+        ["", dance, none, none, none, "...A Few Days Later..."],
+        ["Me", dance, none, none, none, "(I'll go join everyone else at the dance)", "(Looks like this is a game where I have to hit W, A, S, D in correlation to the arrows. )", "Am I ready?"],
+
         ]
 #[talker, bg, otterloc, morbloc,jagloc,messages...]
 
