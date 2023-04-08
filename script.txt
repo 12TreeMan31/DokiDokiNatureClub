@@ -4,13 +4,7 @@ ME:
 (...huh, what’s this?)
 (The nature club?)
 “This is the Nature club, come save the planet with us!!!!”
-
-
-Prompt: Will you join the nature club?
-(Yes)  (No)
-
-Yes -> Continues the game
-No ->    New text:  Well, I have to join some kind of club. So I'll just join this one.  (game continues)
+Well, I have to join some kind of club. So I'll just join this one.  (game continues)
 
 
 [fade to black]
@@ -20,13 +14,9 @@ No ->    New text:  Well, I have to join some kind of club. So I'll just join th
 Janice Jaguar: Welcome to the nature club!!! We’re so happy you are here!!!
 
 Janice Jaguar : So to start the year off, we'll do some activities! This year's theme is saving the rainforest. 
-So, we can plant trees or we can host a fundraiser!
-Maddie Morpho: How about we let the new member choose?
-Choose what you would like to do:
-(Plant trees) or ( Host fundraiser )
-
-Plant trees path:
-
+How about we plant trees and host a fundraiser?
+We'll start with planting trees!
+(Everyone agrees)
 cue olivia otter
 
 Hey new guy, glad to hear you want to help me plant trees!
@@ -45,14 +35,29 @@ Ready? Begin!      { olivia otter goes away}
 CUE TAIKO game
 
 
+Olivia otter: Well, thanks for helping me out! Because of you, the world is a better place!
 
+Switch to 
 
 Host fundraiser path:
+Janice Jaguar:
+Hey! How about we make a school dance to fund raise for the world wildlife fund?
 
+Me:
+Yeah, that sounds good. We can invite everyone from school. 
 
+Janice Jaguar: 
+It's settled then! I'll get the preparations ready!
 
+transition to dance floor
 
-There will be 
+Me:
+(It's the day of the dance)
+(I'll go join everyone else on the dance floor)
 
-Choose your activity:
+Are you ready?
+
+Yes -> enter is pressed -> cue game
+
+certain score is reached -> game ends
 

@@ -13,6 +13,7 @@ pink.title_font = pygame_menu.font.FONT_NEVIS
 
 def start():
     pass
+    #PUT VISNOW.PY HERE!!!!
 
 menu = pygame_menu.Menu('Doki Doki Nature Club', 1280, 720, theme=pink)
 menu.add.button("Play", start)
