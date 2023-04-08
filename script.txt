@@ -17,4 +17,42 @@ No ->    New text:  Well, I have to join some kind of club. So I'll just join th
 [fade to classroom]
 1,2,3 are present,  class background
 
-2: Welcome to the nature club!!! We’re so happy you are here!!!
+Janice Jaguar: Welcome to the nature club!!! We’re so happy you are here!!!
+
+Janice Jaguar : So to start the year off, we'll do some activities! This year's theme is saving the rainforest. 
+So, we can plant trees or we can host a fundraiser!
+Maddie Morpho: How about we let the new member choose?
+Choose what you would like to do:
+(Plant trees) or ( Host fundraiser )
+
+Plant trees path:
+
+cue olivia otter
+
+Hey new guy, glad to hear you want to help me plant trees!
+Its really important that we work to replant the rainforst,  {cue sadface}
+because more than 200,000 acres of rainforest is destroyed each day. 
+[cue happy face]
+But with enough people committed to the cause, we can save the rainforests!
+
+Cue the taiko background, with olivia otter still There
+
+Olivia otter: so, to plant trees, you want to click F or J when the tree aligns with the yellow circle! 
+Easy enough right?
+
+Ready? Begin!      { olivia otter goes away}
+
+CUE TAIKO game
+
+
+
+
+Host fundraiser path:
+
+
+
+
+There will be 
+
+Choose your activity:
+
